@@ -1,0 +1,41 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0;
+  border: 2px solid #F7F8F8;
+  padding: 8px 18px;
+  position: relative;
+}
+label {
+  font-size: 14px;
+  color: #174B7C;
+  display: block;
+  font-weight: 300;
+  line-height: 15.4px;
+  text-align: left;
+
+}
+.custom-input {
+  width: 100%;
+  font-size: 18px;
+  color: #1b2a5e;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  transition: border-color 0.3s ease;
+}
+
+.custom-input[readonly] {
+  color: #1b2a5e; /* Цвет для readonly поля */
+}
+
+.invalid {
+  border-color: red;
+}
+
+.error {
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  color: red;
+}
